@@ -1,0 +1,47 @@
+.repository-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sort-buttons {
+    margin-bottom: 10px;
+  }
+  
+  .sort-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .sort-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .sort-button.active {
+    background-color: #0056b3;
+  }
+  
+  .repository-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .repository-item {
+    margin-bottom: 10px;
+  }
+  
+  .repository-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .repository-link:hover {
+    text-decoration: underline;
+  }
+  
